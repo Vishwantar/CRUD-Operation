@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid white;
+}
+
+#nav>a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#create {
+    border: 10px solid black;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: black;
+    padding-top: 20px;
+}
+
+#create>form {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40vh;
+    width: 20%;
+    font-size: 24px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+#create>form>input {
+    border: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: 25px;
+}
+
+#create>form>input:focus {
+    outline: none;
+}
+
+#create>form>button {
+    margin-top: 20px;
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+#create>form>button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#usersPage {
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#usersPage>div {
+    margin-top: 10px;
+    height: 240px;
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+
+}
+
+#usersPage>div:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 0px 0px 12px white;
+}
+
+#usersPage>div>table {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#usersPage>div>table>tr>td {
+    padding: 15px;
+}
+
+#usersPage>div>table>tr>td>button {
+    margin-top: 20px;
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+}
+
+#usersPage>div>table>tr>td>button:hover {
+    cursor: pointer;
+}
